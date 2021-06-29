@@ -215,6 +215,13 @@ body {
   outline: none;
 }
 
+.button[disabled] {
+  cursor: not-allowed;
+  border: rgb(131, 130, 130);
+  background: #ccc;
+  color: #a1a1a1;
+}
+
 .open {
   display: block !important;
 }

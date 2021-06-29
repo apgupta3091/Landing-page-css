@@ -12,7 +12,8 @@ body {
 
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("images/freedom.jpg") center/cover no-repeat border-box, #ff1b68;
+    url("images/freedom.jpg") left bottom 80% / cover no-repeat border-box,
+    #ff1b68;
   /* background-image: url("freedom.jpg");
     background-size: cover;
     background-position: left 10% bottom 20%; */
@@ -22,8 +23,8 @@ body {
   /* background-image: linear-gradient(180deg, red 70%, blue 60%, rgba(0,0,0,0.5)); */
   /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green); */
   width: 100vw;
-  height: 33vh;
-  margin-top: 2.75rem;
+  height: 50vh;
+  margin-top: 2rem;
   /* border: 5px dashed red; */
   position: relative;
 }
@@ -34,12 +35,12 @@ body {
   position: absolute;
   bottom: 5%;
   left: 3%;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 @media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
-    height: 40vh;
+    height: 95vh;
     background-position: 50% 25%;
   }
   #product-overview h1 {
