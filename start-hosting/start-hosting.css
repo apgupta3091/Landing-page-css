@@ -22,7 +22,7 @@ main {
 .signup-form select {
   display: block;
   margin-top: 1.4rem;
-  width: 100%;
+  width: 90%;
 }
 
 .signup-form :invalid {
@@ -78,5 +78,10 @@ main {
   .signup-form {
     margin: auto;
     width: 25rem;
+  }
+  .signup-form label,
+  .signup-form input,
+  .signup-form select {
+    width: 100%;
   }
 }
