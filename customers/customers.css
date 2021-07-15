@@ -60,7 +60,7 @@
 
 @media (min-width: 40rem) {
   main {
-    height: 90vh;
+    height: 100vh;
   }
   .testimonial {
     margin: 3rem auto;

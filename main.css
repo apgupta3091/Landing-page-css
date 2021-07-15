@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+main {
+  margin-top: -4rem;
+}
+
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
     url("images/freedom.jpg") left bottom 80% / cover no-repeat border-box,
@@ -24,7 +28,6 @@ body {
   /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green); */
   width: 100vw;
   height: 50vh;
-  margin-top: 2rem;
   /* border: 5px dashed red; */
   position: relative;
 }
